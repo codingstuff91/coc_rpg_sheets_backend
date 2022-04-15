@@ -24,4 +24,7 @@ app.listen(PORT, () => {
     console.info(`Application fonctionne sur le port ${PORT}`);
 });
 
+app.use("/", indexRouter);
+app.use("/users", usersRouter);
+
 module.exports = app;

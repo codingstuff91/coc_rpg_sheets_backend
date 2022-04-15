@@ -5,7 +5,7 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
-var usersRouter = require("./routes/users");
+var usersRouter = require("./routes/userRouter");
 var charactersRouter = require("./routes/characterRouter");
 
 const PORT = process.env.PORT || 3000
